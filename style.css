@@ -1,0 +1,138 @@
+.pizza{
+    display: flex;
+}
+.bar1{
+    color: darkorchid;
+}
+.bar2{
+    color: rgb(218, 32, 32);
+}
+#header{
+    display: flex;
+    background-color: #48C3C5;
+}
+.nav{
+    display: flex;
+    margin-left:350px;
+    justify-content: space-between;
+    width: 700px;
+    margin-top: 60px;
+}
+.nav h1{
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ a :hover{
+background-color: grey;
+ }
+ #order{
+    font-weight: bolder;
+    color:green;
+font-size: 30px;
+margin-left: 600px;
+background-color: pink;
+ }
+ #ord a:hover{
+     color: purple;
+     background-color: indigo;
+ }
+
+ .landing{
+    background-image: url(othersbackground.jpg);
+    padding-bottom: 200px;
+    background-position: center center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+  background-attachment:fixed;
+ }
+ 
+ .title{
+     text-align: center;
+     color:greenyellow ;
+     font-size: 100px;
+     font-style:oblique;
+ }
+ .subtitle{
+     text-align: center;
+     font-size: 50px;
+color: white;
+    }
+    .para{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .par{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+
+    .var{
+        font-size: 20px;
+        font-weight: bolder;
+        color: green;
+        background-color:orange;
+    }
+    #var a:hover{
+        color: orange;
+        background-color: palegreen;
+    }
+    ol{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .footer{
+        height: 50px;
+        background:  #485fc5;
+        font-size: larger;
+    }
+    #foot{
+        background-color: #485fc5;
+    }
+.con{
+    color: red;
+    font-weight: bolder;
+}
+.menu {
+    margin-top: 3px;
+    padding: 0;
+}
+
+#menu {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.menu-overlay {
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+figcaption {
+    font-family: 'Oswald', serif;
+}
+
+#menu {
+    padding: 20px;
+}
+.ourvarieties{
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+    font-size: 70px;
+}
+#makeanorder{
+    display: flex;
+    margin-left:500px;
+    justify-content: space-between;
+    width: 300px;
+}
